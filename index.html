@@ -9,15 +9,19 @@
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="#">
+        <form id="loginForm">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
-            
+            <small class="error" id="userError"></small>
+
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            
+            <small class="error" id="passError"></small>
+
             <button type="submit">Login</button>
         </form>
     </div>
+
+    <script src="script.js"></script> <!-- Linking JavaScript file -->
 </body>
 </html>

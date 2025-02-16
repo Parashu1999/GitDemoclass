@@ -59,3 +59,21 @@ button:hover {
     display: block;
     margin-top: 5px;
 }
+/* Sign-Up Container */
+.signup-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+/* Forgot Password Container */
+.forgot-password-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
